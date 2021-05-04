@@ -37,8 +37,8 @@ header {
 	-webkit-background-size: cover !important;
    text-align: center;
    overflow: hidden;
-   background: linear-gradient(to bottom, rgba(255, 254, 254, 0.52), rgba(0, 0, 0, 0.73)),
-url('../images/lofi.gif') no-repeat center; 
+   background: url('../images/lofi.gif') no-repeat center; 
+
 }
 
 /* vertically center banner section */
@@ -47,6 +47,7 @@ header:before {
    display: inline-block;
    vertical-align: middle;
    height: 100%;
+  opacity: 0;
 }
 header .banner {
    display: inline-block;
@@ -1005,4 +1006,9 @@ footer .social-links li:first-child { margin-left: 0; }
  	border-radius: 100%;
 }
 #go-top a:hover { background-color: #0F9095; }
+
+
+#header_text {
+   color: white;
+}
 
