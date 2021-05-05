@@ -833,7 +833,11 @@ call-to-action .button {
 
 
 /* contact form */
-#contact form { margin-bottom: 30px; }
+#contact form { 
+   margin-bottom: 30px;
+   text-align: -moz-center;
+  
+ }
 #contact label {
    font: 15px/24px 'opensans-bold', sans-serif;
    margin: 12px 0;
@@ -861,7 +865,7 @@ call-to-action .button {
 	color: #fff;
 	background-color: #11ABB0;
 }
-#contact button.submit {
+#contact button.submit-contact {
 	text-transform: uppercase;
 	letter-spacing: 3px;
 	color:#fff;
@@ -873,7 +877,9 @@ call-to-action .button {
 	border-radius: 3px;
    margin-left: 26%;
 }
-#contact button.submit:hover {
+
+
+#contact button.submit-contact:hover {
 	color: #0D0D0D;
 	background: #fff;
 }
@@ -1012,3 +1018,11 @@ footer .social-links li:first-child { margin-left: 0; }
    color: white;
 }
 
+.contact-me .button{
+   background-color: #0F9095;   
+   color: white;
+}
+.contact-me .button:hover {
+   background-color: white;   
+   color: black;
+}
