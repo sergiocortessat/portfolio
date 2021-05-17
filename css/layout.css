@@ -205,7 +205,7 @@ ul#nav li.current a { color: #F06000; }
 }
 #about p {
    line-height: 30px;
-   color: #7A7A7A;
+   color: white;
    font-size: 2rem;
 }
 #about .profile-pic {
@@ -243,6 +243,7 @@ ul#nav li.current a { color: #F06000; }
    padding-top: 90px;
    padding-bottom: 72px;
    overflow: hidden;
+   font-size:2rem;
 }
 
 #resume a, #resume a:visited  { color: #11ABB0; }
