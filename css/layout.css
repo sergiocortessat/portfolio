@@ -1027,3 +1027,7 @@ footer .social-links li:first-child { margin-left: 0; }
    background-color: white;   
    color: black;
 }
+
+.portfolio-item > div > a > img {
+   min-height: 220px !important;
+}
