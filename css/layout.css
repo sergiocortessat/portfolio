@@ -59,7 +59,7 @@ header .banner {
   text-align: center;
   background-color: rgba(0, 0, 0, 0.65);
   border-radius: 10px;
-  padding-top: 20px !important;
+  padding-top: 60px !important;
 }
 
 header .banner-text {
@@ -531,6 +531,7 @@ ul#nav li.current a {
   -o-transition: all 0.3s ease-in-out;
   -ms-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+  border-radius: 20%;
 }
 .portfolio-item .item-wrap a {
   display: block;
@@ -650,6 +651,10 @@ ul#nav li.current a {
   text-transform: uppercase;
   letter-spacing: 3px;
   cursor: pointer;
+}
+
+.popup-modal .link-box .github {
+  margin-left: 24px;
 }
 .popup-modal a:hover {
   color: #00cccc;
