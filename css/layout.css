@@ -636,9 +636,11 @@ ul#nav li.current a {
   letter-spacing: 2px;
   display: block;
   text-align: left;
+  color: black;
 }
 .popup-modal .description-box .categories i {
   margin-right: 8px;
+  color: black;
 }
 .popup-modal .link-box {
   padding: 18px 36px;
