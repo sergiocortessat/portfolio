@@ -53,3 +53,28 @@
   transform: translateY(5px);
   /* move the element down by 5px (it will stay in place because it's attached to the element that also moves up 5px) */
 }
+
+/* custom style for resume skill layout */
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skills-intro {
+  margin-top: 35px;
+  margin-bottom: 45px;
+}
+
+.skills-badges {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skills-badges > img {
+  margin: 10px;
+}
