@@ -10,8 +10,8 @@
 // console.log(window.location.href)
 // console.log("           ")
 
-// let kwesScript = document.createElement('script')
+let kwesScript = document.createElement('script')
 
-// kwesScript.setAttribute('src', 'https://kwes.io/js/kwes.js')
+kwesScript.setAttribute('src', 'https://kwes.io/js/kwes.js')
 
-// document.head.appendChild(kwesScript)
+document.head.appendChild(kwesScript)
