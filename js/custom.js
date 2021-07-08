@@ -14,4 +14,4 @@ let kwesScript = document.createElement('script')
 
 kwesScript.setAttribute('src', 'https://kwes.io/js/kwes.js')
 
-document.head.appendChild(kwesScript)
+document.body.appendChild(kwesScript)
