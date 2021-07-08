@@ -9,9 +9,3 @@
 // console.log(smile.parentNode.previousSibling)
 // console.log(window.location.href)
 // console.log("           ")
-
-let kwesScript = document.createElement('script')
-
-kwesScript.setAttribute('src', 'https://kwes.io/js/kwes.js')
-
-document.body.appendChild(kwesScript)
