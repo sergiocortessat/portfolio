@@ -12,6 +12,6 @@
 
 let kwesScript = document.createElement('script')
 
-kwesScript.setAttribute('src', '<scr src="https://kwes.io/js/kwes.js" defer></scr')
+kwesScript.setAttribute('src', '<scr src="https://kwes.io/js/kwes.js"></scr')
 
 document.head.appendChild(kwesScript)
