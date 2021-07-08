@@ -1119,7 +1119,9 @@ footer .copyright li {
 
 footer .copyright li a {
   color: #11abb0;
+  margin-left: 5px;
 }
+
 .ie footer .copyright li {
   display: inline;
 }
@@ -1150,6 +1152,14 @@ footer .social-links li {
 footer .social-links li a i {
  color: white;
 }
+
+footer .social-links li a :hover {
+    color: #11abb0;
+    -webkit-transition: color 0.3s ease-in-out;
+    -moz-transition: color 0.3s ease-in-out;
+    -o-transition: color 0.3s ease-in-out;
+    transition: color 0.3s ease-in-out;
+ }
 
 footer .social-links li:first-child {
   margin-left: 0;
