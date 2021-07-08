@@ -1178,6 +1178,8 @@ footer .social-links li:first-child {
 
 #header_text {
   color: white;
+  font-size: 2.5rem !important;
+
 }
 
 .contact-me .button {
