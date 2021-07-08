@@ -216,7 +216,7 @@
   width: 890px !important;
 }
 
-@media screen and (max-width: 766px) {
+@media screen and (max-width: 767px) {
   .widget {
     text-align: center;
   }
