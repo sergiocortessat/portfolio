@@ -18,7 +18,7 @@
 
 <br />
 
--[Live page](https://sergiocortes.codes)
+-[Live page](https://sergiocortes.me)
 
 <!-- ABOUT THE PROJECT   -->
 ## About The Project
